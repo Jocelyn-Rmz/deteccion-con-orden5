@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.navbar {
+    background: #1f1f1f;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.voice-card {
+    background: #222;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: #2efafdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+}
+
+.circle img {
+    width: 60%;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#startBtn {
+    background: #00adb5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#startBtn:hover {
+    background: #008c99;
+}
+
+.text-output {
+    margin-top: 20px;
+    background: #333;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.text-output p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.input-container {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 300px;
+}
+
+.input-label {
+  color: #fff; /* Blanco para visibilidad en fondo oscuro */
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.input-field {
+  width: 70%;
+  padding: 8px 12px;
+  background-color: #333; /* Fondo oscuro */
+  border: 2px solid #555; /* Borde suave */
+  border-radius: 8px;
+  color: #fff; /* Texto blanco */
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.input-field::placeholder {
+  color: #bbb; /* Texto de sugerencia más claro */
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #00bcd4; /* Borde cyan al enfocar */
+  box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+}
